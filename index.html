@@ -17,9 +17,7 @@
             padding: 0;
             box-sizing: border-box;
         }
-        #sortOrder{
-            padding-top:12px;
-        }
+      
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -152,7 +150,6 @@
             }
 
             .sort-controls {
-           
             gap: 10px;
             align-items: center;
             padding: 10px 15px;
@@ -666,7 +663,7 @@
             </div>
             <div class="control-group">
                 <div class="sort-controls">
-                    <label>📋 Подреждане:</label>
+                    <label>📋 Подреждане:</label><br>
                     <select id="sortOrder" onchange="changeSortOrder()">
                         <option value="custom">Персонализирано</option>
                         <option value="name-asc">По име (А → Я)</option>
